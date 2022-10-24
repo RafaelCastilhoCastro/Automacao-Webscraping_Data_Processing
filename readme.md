@@ -1,9 +1,9 @@
 <h2 align='center'>Automação - Obtenção de cotações online e atualização de cálculos em banco de dados
-(Automation - Webscraping for prices and update calculations on DB)
+(Automation - Webscraping for prices and update DB)
 </h2>
 
 
-### Descrição (Description)
+### Descrição
 
 <p></p>
 Script em Python que, criando uma nova janela do navegador, acessa sites definidos e coleta cotações de moedas atualizadas. Em seguida atualiza informações de bancos e dados e prepara dados para exibição ou envio.
@@ -11,7 +11,7 @@ Script em Python que, criando uma nova janela do navegador, acessa sites definid
 <p>Python script that creates a new browser window to access and collect predefined currencies prices. Updates then a DB and handle the data to be displayed or mailed.</p>
 <br>
 
-### Funcionalidades do projeto (Project Functionalities)
+### Funcionalidades do projeto
 
 * Esse script pode trabalhar em segundo plano. O Usuário não precisa aguardar sua finalização.
 * Acessa sites definidos pelo usuário, coletando cotações específicadas pelo usuário
@@ -26,14 +26,14 @@ Script em Python que, criando uma nova janela do navegador, acessa sites definid
 <br>
 
 
-### Tecnologias utilizadas (Dependencies)
+### Tecnologias utilizadas
 
 * Webdriver
 * Selenium
 <br>
 
 
-### Rodando o projeto (Running the project)
+### Rodando o projeto
 
 * Selenium recomenda o uso dos navegadores Chrome ou Firefox para melhor desempenho
 * Inicialmente é necessário instalar manualmente o webdriver do navegador utilizado. Buscar no google chromedriver/firefoxdriver/etc
@@ -47,4 +47,3 @@ Script em Python que, criando uma nova janela do navegador, acessa sites definid
 * The script collects the prices through the HTML element's XPATH and Attribute containing the price. If the user is gonna use the prices given by google there's no need to update the code. If other site are required it will be necessary to obtain the new XPATH and Attribute name.
 * To obtaing a new HTML element's XPATH use the browser Inspect tool on the HTML element, right click it on the inspect window, copy, XPATH. The Attribute name can be seen when selecting the element.
 * Normalize the dots and commas on values to avoid conflicts.
-
